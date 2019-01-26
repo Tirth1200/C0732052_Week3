@@ -20,8 +20,11 @@ namespace C0732052_W3_
         public void InitializeMap()
         {
              Alst = new Village();
+            Alst.VillageName = "Alst";
             Maeland = new Village();
+            Maeland.VillageName = "Maeland";
             Schenig = new Village();
+            Schenig.VillageName = "Schenig";
             Maeland.isAstrildeHere = true;
             Alst.NextVillage = Maeland;
             Schenig = new Village();
@@ -29,7 +32,9 @@ namespace C0732052_W3_
         }
         public void WalkAround()
         {
-          Village InitialVillage = this.Maeland;
+          Village CurrentVillage = this.Maeland;
+            Village NextVillage;
+            NextVillage = CurrentVillage = Alst;
         }
     }
     class Village
