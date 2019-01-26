@@ -19,12 +19,13 @@ namespace C0732052_W3_
       Village Schenig;
         public void InitializeMap()
         {
-            Village Alst = new Village();
-            Village Maeland = new Village();
-            Village Schenig = new Village();
+             Alst = new Village();
+            Maeland = new Village();
+            Schenig = new Village();
+            Maeland.isAstrildeHere = true;
             Alst.NextVillage = Maeland;
-            Maeland.NextVillage = Schenig;
-            Schenig.NextVillage = Alst;
+            Schenig = new Village();
+            
         }
         public void WalkAround()
         {
