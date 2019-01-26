@@ -10,6 +10,12 @@ namespace C0732052_W3_
     {
         static void Main(string[] args)
         {
+
         }
+    }
+    class Node
+    {
+        Node PreviousNode;
+        Node NextNode;
     }
 }
