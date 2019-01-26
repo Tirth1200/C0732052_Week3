@@ -13,9 +13,9 @@ namespace C0732052_W3_
 
         }
     }
-    class Node
+    class Village
     {
-        Node PreviousNode;
-        Node NextNode;
+        Village PreviousVillage;
+        Village NextVillage;
     }
 }
